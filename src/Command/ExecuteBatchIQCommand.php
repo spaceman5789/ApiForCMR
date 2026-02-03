@@ -1,0 +1,68 @@
+<?php
+
+namespace App\Command;
+
+use App\Service\DealService;
+use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Style\SymfonyStyle;
+use Psr\Log\LoggerInterface;
+
+class ExecuteBatchIQCommand extends Command
+{
+    protected static $defaultName = 'app:add-deals-IQ';
+    protected static $defaultDescription = 'Add deals to BitrixIQ via DealService';
+
+    private $dealService;
+    private $logger;
+
+    public function __construct(DealService $dealService, LoggerInterface $logger)
+    {
+        parent::__construct();
+        $this->dealService = $dealService;
+        $this->logger = $logger;
+    }
+
+    protected function configure(): void
+    {
+        $this
+            ->setHelp('This command allows you to add deals to BitrixIQ by executing the addDealsToBitrixIQ method');
+    }
+
+    protected function execute(InputInterface $input, OutputInterface $output): int
+    {
+        $io = new SymfonyStyle($input, $output);
+
+        $io->title('Adding deals to BitrixIQ');
+
+        try {
+            $result = $this->dealService->addDealsToBitrixIQ();
+
+            if (!empty($result['successes'])) {
+                $io->success('Deals IQ added successfully with the following results:');
+
+                foreach ($result['successes'] as $success) {
+                    $io->writeln("Command: {$success['command']}, ID: {$success['id']}, Message: {$success['message']}");
+                }
+            }
+
+            if (!empty($result['errors'])) {
+                $io->error('Some deals IQ failed with the following errors:');
+
+                foreach ($result['errors'] as $error) {
+                    $io->writeln("Command: {$error['command']}, Error: {$error['error']}, Description: {$error['error_description']}");
+                }
+            }
+
+            if (empty($result['errors']) && empty($result['successes'])) {
+                $io->success('Nothing to add');
+            }
+
+            return Command::SUCCESS;
+        } catch (\Exception $e) {
+            $io->error('An error occurred while adding IQ deals: ' . $e->getMessage());
+            return Command::FAILURE;
+        }
+    }
+}

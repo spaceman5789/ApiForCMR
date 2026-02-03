@@ -1,0 +1,2 @@
+parameters:
+  app_url: '%env(APP_URL)%'

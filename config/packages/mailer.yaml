@@ -1,0 +1,9 @@
+framework:
+    mailer:
+        dsn: '%env(MAILER_DSN)%'
+        envelope:
+            sender: 'support@plumbill.io'
+            recipients: []
+        headers:
+            From: 'Plumbill <support@plumbill.io>'
+            To: 'awafek@altek.ma'

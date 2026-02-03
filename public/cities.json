@@ -1,0 +1,410 @@
+[
+    {
+        "gouvernorat": "Ariana",
+        "villes": [
+            "Ariana",
+            "Ariana Ville",
+            "Ettadhamen",
+            "Kalaat Landlous",
+            "La Soukra",
+            "Mnihla",
+            "Raoued",
+            "Sidi Thabet"
+        ]
+    },
+    {
+        "gouvernorat": "Béja",
+        "villes": [
+            "Béja",
+            "Amdoun",
+            "Beja Nord",
+            "Beja Sud",
+            "Goubellat",
+            "Mejez El Bab",
+            "Nefza",
+            "Teboursouk",
+            "Testour",
+            "Thibar"
+        ]
+    },
+    {
+        "gouvernorat": "Ben Arous",
+        "villes": [
+            "Ben Arous",
+            "Ben Arous",
+            "Bou Mhel El Bassatine",
+            "El Mourouj",
+            "Ezzahra",
+            "Fouchana",
+            "Hammam Chatt",
+            "Hammam Lif",
+            "Megrine",
+            "Mohamadia",
+            "Mornag",
+            "Nouvelle Medina",
+            "Rades"
+        ]
+    },
+    {
+        "gouvernorat": "Bizerte",
+        "villes": [
+            "Bizerte",
+            "Bizerte Nord",
+            "Bizerte Sud",
+            "El Alia",
+            "Ghar El Melh",
+            "Ghezala",
+            "Jarzouna",
+            "Joumine",
+            "Mateur",
+            "Menzel Bourguiba",
+            "Menzel Jemil",
+            "Ras Jebel",
+            "Sejnane",
+            "Tinja",
+            "Utique",
+            "AOUSJA",
+            "LA PECHERIE"
+        ]
+    },
+    {
+        "gouvernorat": "Gabès",
+        "villes": [
+            "Gabès",
+            "El Hamma",
+            "El Metouia",
+            "Gabes Medina",
+            "Gabes Ouest",
+            "Gabes Sud",
+            "Ghannouche",
+            "Mareth",
+            "Matmata",
+            "Menzel Habib",
+            "Nouvelle Matmata"
+        ]
+    },
+    {
+        "gouvernorat": "Gafsa",
+        "villes": [
+            "Gafsa",
+            "Belkhir",
+            "El Guettar",
+            "El Ksar",
+            "El Mdhilla",
+            "Gafsa Nord",
+            "Gafsa Sud",
+            "Metlaoui",
+            "Moulares",
+            "Redeyef",
+            "Sidi Aich",
+            "Sned"
+        ]
+    },
+    {
+        "gouvernorat": "Jendouba",
+        "villes": [
+            "Jendouba",
+            "Ain Draham",
+            "Balta Bou Aouene",
+            "Bou Salem",
+            "Fernana",
+            "Ghardimaou",
+            "Jendouba",
+            "Jendouba Nord",
+            "Oued Mliz",
+            "Tabarka"
+        ]
+    },
+    {
+        "gouvernorat": "Kairouan",
+        "villes": [
+            "Kairouan",
+            "Bou Hajla",
+            "Chebika",
+            "Cherarda",
+            "El Ala",
+            "Haffouz",
+            "Hajeb El Ayoun",
+            "Kairouan Nord",
+            "Kairouan Sud",
+            "Nasrallah",
+            "Oueslatia",
+            "Sbikha"
+        ]
+    },
+    {
+        "gouvernorat": "Kasserine",
+        "villes": [
+            "Kasserine",
+            "El Ayoun",
+            "Ezzouhour (Kasserine)",
+            "Feriana",
+            "Foussana",
+            "Haidra",
+            "Hassi El Frid",
+            "Jediliane",
+            "Kasserine Nord",
+            "Mejel Bel Abbes",
+            "Sbeitla",
+            "Sbiba",
+            "Thala",
+            "Kasserine Sud"
+        ]
+    },
+    {
+        "gouvernorat": "Kébili",
+        "villes": [
+            "Kébili",
+            "Douz",
+            "El Faouar",
+            "Kebili Nord",
+            "Kebili Sud",
+            "Souk El Ahad"
+        ]
+    },
+    {
+        "gouvernorat": "Le Kef",
+        "villes": [
+            "Le Kef",
+            "Dahmani",
+            "El Ksour",
+            "Jerissa",
+            "Kalaa El Khasba",
+            "Kalaat Sinane",
+            "Le Kef Est",
+            "Le Kef Ouest",
+            "Nebeur",
+            "Sakiet Sidi Youssef",
+            "Tajerouine",
+            "Touiref",
+            "Le Sers"
+        ]
+    },
+    {
+        "gouvernorat": "Mahdia",
+        "villes": [
+            "Mahdia",
+            "Bou Merdes",
+            "Chorbane",
+            "El Jem",
+            "Hbira",
+            "Ksour Essaf",
+            "La Chebba",
+            "Mahdia",
+            "Melloulech",
+            "Ouled Chamakh",
+            "Sidi Alouene",
+            "Souassi"
+        ]
+    },
+    {
+        "gouvernorat": "La Manouba",
+        "villes": [
+            "La Manouba",
+            "Borj El Amri",
+            "El Battan",
+            "Jedaida",
+            "Mannouba",
+            "Mornaguia",
+            "Oued Ellil",
+            "Tebourba",
+            "Douar Hicher"
+        ]
+    },
+    {
+        "gouvernorat": "Médenine",
+        "villes": [
+            "Médenine",
+            "Ajim",
+            "Ben Guerdane",
+            "Beni Khedache",
+            "Houmet Essouk",
+            "Medenine Nord",
+            "Medenine Sud",
+            "Midoun",
+            "Sidi Makhlouf",
+            "Zarzis"
+        ]
+    },
+    {
+        "gouvernorat": "Monastir",
+        "villes": [
+            "Monastir",
+            "Bekalta",
+            "Bembla",
+            "Beni Hassen",
+            "Jemmal",
+            "Ksar Helal",
+            "Ksibet El Mediouni",
+            "Monastir",
+            "Ouerdanine",
+            "Sahline",
+            "Sayada Lamta Bou Hajar",
+            "Teboulba",
+            "Zeramdine",
+            "Moknine"
+        ]
+    },
+    {
+        "gouvernorat": "Nabeul",
+        "villes": [
+            "Nabeul",
+            "Beni Khalled",
+            "Beni Khiar",
+            "Bou Argoub",
+            "Dar Chaabane Elfehri",
+            "El Haouaria",
+            "El Mida",
+            "Grombalia",
+            "Hammam El Ghezaz",
+            "Hammamet",
+            "Kelibia",
+            "Korba",
+            "Menzel Bouzelfa",
+            "Menzel Temime",
+            "Nabeul",
+            "Soliman",
+            "Takelsa"
+        ]
+    },
+    {
+        "gouvernorat": "Sfax",
+        "villes": [
+            "Sfax",
+            "Agareb",
+            "Bir Ali Ben Khelifa",
+            "El Amra",
+            "El Hencha",
+            "Esskhira",
+            "Ghraiba",
+            "Jebeniana",
+            "Kerkenah",
+            "Mahras",
+            "Menzel Chaker",
+            "Sakiet Eddaier",
+            "Sakiet Ezzit",
+            "Sfax Est",
+            "Sfax Sud",
+            "Sfax Ville"
+        ]
+    },
+    {
+        "gouvernorat": "Sousse",
+        "villes": [
+            "Sousse",
+            "Akouda",
+            "Bou Ficha",
+            "Enfidha",
+            "Hammam Sousse",
+            "Hergla",
+            "Kalaa El Kebira",
+            "Kalaa Essghira",
+            "Kondar",
+            "Msaken",
+            "Sidi Bou Ali",
+            "Sidi El Heni",
+            "Sousse Jaouhara",
+            "Sousse Riadh",
+            "Sousse Ville"
+        ]
+    },
+    {
+        "gouvernorat": "Siliana",
+        "villes": [
+            "Siliana",
+            "Bargou",
+            "Bou Arada",
+            "El Aroussa",
+            "Gaafour",
+            "Kesra",
+            "Le Krib",
+            "Makthar",
+            "Rohia",
+            "Sidi Bou Rouis",
+            "Siliana Nord",
+            "Siliana Sud"
+        ]
+    },
+    {
+        "gouvernorat": "Sidi Bouzid",
+        "villes": [
+            "Ben Oun",
+            "Bir El Haffey",
+            "Cebbala",
+            "Jilma",
+            "Maknassy",
+            "Menzel Bouzaiene",
+            "Mezzouna",
+            "Ouled Haffouz",
+            "Regueb",
+            "Sidi Bouzid Est",
+            "Sidi Bouzid Ouest",
+            "Souk Jedid",
+            "Sidi Bouzid"
+        ]
+    },
+    {
+        "gouvernorat": "Tataouine",
+        "villes": [
+            "Tataouine",
+            "Bir Lahmar",
+            "Dhehiba",
+            "Ghomrassen",
+            "Remada",
+            "Smar",
+            "Tataouine Nord",
+            "Tataouine Sud"
+        ]
+    },
+    {
+        "gouvernorat": "Tozeur",
+        "villes": [
+            "Tozeur",
+            "Degueche",
+            "Hezoua",
+            "Nefta",
+            "Tameghza",
+            "Tozeur"
+        ]
+    },
+    {
+        "gouvernorat": "Tunis",
+        "villes": [
+            "Tunis",
+            "Bab Bhar",
+            "Bab Souika",
+            "Carthage",
+            "Cite El Khadra",
+            "El Hrairia",
+            "El Kabbaria",
+            "El Kram",
+            "El Menzah",
+            "El Omrane",
+            "El Omrane Superieur",
+            "El Ouerdia",
+            "Essijoumi",
+            "Ettahrir",
+            "Ezzouhour (Tunis)",
+            "Jebel Jelloud",
+            "La Goulette",
+            "La Marsa",
+            "La Medina",
+            "Le Bardo",
+            "Sidi El Bechir",
+            "Sidi Hassine",
+            "Tunis"
+        ]
+    },
+    {
+        "gouvernorat": "Zaghouan",
+        "villes": [
+            "Zaghouan",
+            "Bir Mcherga",
+            "El Fahs",
+            "Ennadhour",
+            "Hammam Zriba",
+            "Saouef",
+            "Zaghouan"
+        ]
+    }
+]

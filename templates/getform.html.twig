@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GetForm тест</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 32px; color: #222; }
+            .card { max-width: 640px; padding: 20px; border: 1px solid #ddd; border-radius: 8px; }
+            label { display: block; margin-bottom: 12px; }
+            input { width: 100%; padding: 8px; margin-top: 6px; box-sizing: border-box; }
+            button { padding: 10px 16px; border: 0; background: #0d6efd; color: #fff; border-radius: 6px; cursor: pointer; }
+            button:hover { background: #0b5ed7; }
+            .msg { margin-top: 16px; padding: 12px; border-radius: 6px; }
+            .error { background: #fde2e1; color: #8a1f1f; }
+            .ok { background: #e7f6ec; color: #1b5e2b; }
+            pre { background: #f6f8fa; padding: 12px; overflow: auto; border-radius: 6px; }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h1>Форма отправки лида</h1>
+            <form method="post" action="/getform">
+                <label>
+                    Имя
+                    <input type="text" name="name" value="{{ name|e }}">
+                </label>
+                <label>
+                    Телефон
+                    <input type="text" name="phone" value="{{ phone|e }}">
+                </label>
+                <button type="submit">Отправить</button>
+            </form>
+
+            {% if error %}
+                <div class="msg error">Ошибка: {{ error }}</div>
+            {% endif %}
+
+            {% if result %}
+                <div class="msg ok">
+                    {% if statusCode %}
+                        HTTP: {{ statusCode }}
+                    {% endif %}
+                </div>
+                <pre>{{ result|json_encode(constant('JSON_PRETTY_PRINT')) }}</pre>
+            {% endif %}
+        </div>
+    </body>
+</html>

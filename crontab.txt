@@ -1,0 +1,5 @@
+# Run at 17:00 (GMT+3) on Monday to Friday
+0 14 * * 1-5 /var/www/trigger_api_call.sh >> /var/log/cron.log 2>&1
+# Run at 15:00 (GMT+3) on Sunday
+0 12 * * 7 /var/www/trigger_api_call.sh >> /var/log/cron.log 2>&1
+
