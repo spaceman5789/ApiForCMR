@@ -11,11 +11,12 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
 class GetFormController extends AbstractController
 {
     private const API_URL = 'http://nginx/api/add-deals';
-    private const API_KEY = '11ed6b4933eca2e7d00bfd0c5439d3be';
+    private const API_KEY = 'e413b019ef8c2cbaa8dfb2c522c5bcb6';
     private const OFFER_ID = '2006';
     private const WEBMASTER_ID = '00002';
 
     /**
+     * @Route("/", name="getform_root", methods={"GET","POST"})
      * @Route("/getform", name="getform", methods={"GET","POST"})
      */
     public function handle(Request $request, HttpClientInterface $httpClient): Response
